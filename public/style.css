@@ -1,0 +1,73 @@
+h3 {
+    margin: .5rem;
+}
+
+.card {
+    margin: .5rem;
+}
+
+.content {
+    display: block;
+    width: fit-content;
+}
+
+.card {
+    display: inline-block;
+}
+
+.card img {
+    height: 24rem;
+    width: inherit;
+    display: inline-block;
+}
+
+.imagebg {
+    margin: 1rem;
+    padding: 1rem;
+    background: rgb(76,129,121);
+    background: linear-gradient(108deg, rgba(76,129,121,1) 0%, rgba(78,25,84,1) 47%, rgba(140,22,67,1) 100%);
+    width: fit-content;
+    display: flex;
+    border-radius: .25rem;
+}
+
+.imagebg img {
+    height: 75vh;
+}
+
+.details {
+    display: flex;
+}
+
+.details .info {
+    margin: 2rem 0;
+    font-size: 1.5rem;
+}
+
+.details .info * {
+    margin: .5rem;
+}
+
+.buy-button {
+    position: relative;
+    top: 2rem;
+    margin: .5rem;
+    padding: .5rem;
+    width: fit-content;
+    height: fit-content;
+    background-color: blue;
+    border-radius: .25rem;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.note {
+    color: red;
+    font-style: italic;
+}
+
+.note-heading {
+    font-weight: 800;
+}
